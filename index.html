@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HENenn</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<body>
+  <!-- この中に記述していく -->
+  <!-- ここから下にコードを書く -->
+
+  <!-- ===== ヘッダー ===== -->
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="header__logo">
+        <a href="#">
+          <img src="./img/header_logo.png" alt="ロゴマーク">
+          <!-- <span class="header__logo-mark">C</span>
+          <span class="header__logo-text">Cheese ACADEMY<br>TOKYO</span> -->
+        </a>
+      </h1>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#course">SERVICE</a></li>
+          <li><a href="#news">BLOG</a></li>
+          <li><a href="#access">ACCESS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== メインビジュアル ===== -->
+  <section class="hero">
+    <div class="hero__text">
+      <h2 class="hero__title">境界をつくらない</h2>
+      <p class="hero__sub">旅とカオスを愛する経営コンサルタント「HENenn」</p>
+    </div>
+  </section>
+
+  <main>
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section__title">ABOUT</h2>
+        <p class="section__sub">HENennについて</p>
+        <div class="about__text">
+          <p>「境界をつくらない」――それが、いちばん大切にしている価値観です。</p>
+          <p>経営と人、数字と想い、地方と世界。<br>
+            会社の課題の多くは、こうした“あいだ”に生まれます。</p>
+          <p>私は、その境界をまたいで人と組織を繋ぐ「バウンダリースパナー」を目指します。</p>
+          <p>多様な才能が混ざり合う、活気あふれる職場を地方に創る。<br>
+            ごちゃまぜで優しい世界を、中小企業の現場へ。</p>
+        </div>
+      </div>
+
+     <!-- ===== 保有資格 ===== -->
+        <div class="qualifications">
+          <h3 class="qualifications__title">
+            <span class="section__sub">保有資格</span>
+          </h3>
+          <div class="qualifications__grid">
+            <div class="qualifications__group">
+              <h4 class="qualifications__label">経営・事業支援</h4>
+              <ul class="qualifications__list">
+                <li>中小企業診断士</li>
+                <li>経営学修士（MBA）</li>
+                <li>インキュベーション・マネージャー</li>
+                <li>認定経営革新等支援機関</li>
+              </ul>
+            </div>
+            <div class="qualifications__group">
+              <h4 class="qualifications__label">お金・財務</h4>
+              <ul class="qualifications__list">
+                <li>日商簿記検定2級</li>
+                <li>2級FP技能士</li>
+              </ul>
+            </div>
+            <div class="qualifications__group">
+              <h4 class="qualifications__label">IT・データ</h4>
+              <ul class="qualifications__list">
+                <li>ITパスポート</li>
+                <li>G検定（ジェネラリスト検定）</li>
+                <li>DS検定（データサイエンティスト検定）</li>
+              </ul>
+            </div>
+            <div class="qualifications__group">
+              <h4 class="qualifications__label">語学</h4>
+              <ul class="qualifications__list">
+                <li>実用フランス語技能検定 1級</li>
+                <li>TOEIC 895点</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- ===== スライダー ===== -->
+      <div class="about__slider">
+        <ul class="about__photos">
+          <li><img src="./img/about_04.jpg" alt="PC"></li>
+          <li><img src="./img/about_03.jpg" alt="分析"></li>
+          <li><img src="./img/about_02.jpg" alt="コンサル"></li>
+          <li><img src="./img/about_01.jpg" alt="ピザの調理風景"></li>
+          <!-- ループ用の複製（同じ4枚） -->
+          <li aria-hidden="true"><img src="./img/about_04.jpg" alt=""></li>
+          <li aria-hidden="true"><img src="./img/about_03.jpg" alt=""></li>
+          <li aria-hidden="true"><img src="./img/about_02.jpg" alt=""></li>
+          <li aria-hidden="true"><img src="./img/about_01.jpg" alt=""></li>
+        </ul>
+</div>
+    </section>
+
+    <!-- ===== SERVICE ===== -->
+    <section id="course" class="course section">
+      <div class="container">
+        <h2 class="section__title">SERVICE</h2>
+        <p class="section__sub">支援内容</p>
+        <p class="course__lead">創業準備から経営改善、IPO準備、DXなど、<br>
+          会社のステージや課題に合わせて伴走いたします</p>
+      </div>
+
+      <div class="course__item">
+        <div class="course__img"><img src="./img/course_01.jpg" alt="創業支援"></div>
+        <div class="course__body">
+          <div class="course__box">
+            <h3 class="course__heading">創業支援</h3>
+            <p>創業に必要な知識のレクチャーから、事業を成功に近づけるための事業計画書作成、融資や補助金の申請書作成のお手伝いをいたします。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="course__item course__item--reverse">
+        <div class="course__img"><img src="./img/course_02.jpg" alt="経営改善"></div>
+        <div class="course__body">
+          <div class="course__box">
+            <h3 class="course__heading">経営改善・事業再生・DX支援</h3>
+            <p>お金の流れから課題を紐解き、改善計画を策定します。外部環境の変化や組織内部の問題など、複雑に絡み合った課題に対して、丁寧に向き合います。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="course__item">
+        <div class="course__img"><img src="./img/course_03.jpg" alt="IPO準備"></div>
+        <div class="course__body">
+          <div class="course__box">
+            <h3 class="course__heading">IPO準備</h3>
+            <p>会計・財務管理体制の高度化や、内部統制のための規程整備まで、IPO準備の道のりを伴走します。経営者と現場のあいだに立って、成長のスピードと組織の土台づくりを両立させます。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="course__item course__item--reverse">
+        <div class="course__img"><img src="./img/course_04.jpg" alt="アフリカ進出支援"></div>
+        <div class="course__body">
+          <div class="course__box">
+            <h3 class="course__heading">アフリカ進出支援</h3>
+            <p>アフリカでの就業経験と、フランス語・英語を生かして、アフリカへの進出を目指す中小企業を支援します。“Bridge Local Potential and Global View” が、私のもうひとつの約束です。
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BLOG ===== -->
+    <section id="news" class="news section">
+      <div class="container">
+        <h2 class="section__title">BLOG</h2>
+        <p class="section__sub">日々のあれこれ</p>
+        <ul class="news__list">
+          <li class="news__item">
+            <a href="#">
+              <div class="news__img"><img src="./img/news_img1.jpg" alt=""></div>
+              <time class="news__date" datetime="2026-9-26">2026/9/26</time>
+              <p class="news__text">セミナー登壇のお知らせーくろかわ商工会主催の「創業セミナー」に登壇します。</p>
+            </a>
+          </li>
+          <li class="news__item">
+            <a href="#">
+              <div class="news__img"><img src="./img/news_img2.jpg" alt=""></div>
+              <time class="news__date" datetime="2016-11-18">2026/10/10</time>
+              <p class="news__text">小規模事業者持続化補助金の公募要領が公開されました</p>
+            </a>
+          </li>
+          <li class="news__item">
+            <a href="#">
+              <div class="news__img"><img src="./img/news_img3.jpg" alt=""></div>
+              <time class="news__date" datetime="2016-11-18">2026/10/24</time>
+              <p class="news__text">年末年始の営業日についてのお知らせ</p>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="btn">More</a>
+      </div>
+    </section>
+
+    <!-- ===== ACCESS ===== -->
+    <section id="access" class="access section">
+      <div class="container">
+        <h2 class="section__title">ACCESS</h2>
+        <p class="section__sub">事業所情報</p>
+      </div>
+      <div class="access__map">
+        <!-- Google マップの「共有 → 地図を埋め込む」で取得した iframe に差し替えてください -->
+        <iframe src="https://www.google.com/maps?q=宮城県仙台市青葉区&output=embed" loading="lazy" title="チーズアカデミーTOKYOの地図"></iframe>
+      </div>
+      <div class="container">
+        <dl class="access__info">
+          <dt>屋号</dt>
+          <dd>HENenn</dd>
+          <dt>事務所所在地</dt>
+          <dd>〒980-0804 宮城県仙台市青葉区</dd>
+          <dt>TEL</dt>
+          <dd>080-5xxxx-xxxx</dd>
+          <dt>MAIL</dt>
+          <dd>xxxxx@xxxxx.com</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section__title">CONTACT</h2>
+        <p class="section__sub">お問い合わせ</p>
+        <p class="contact__lead">まずは下記フォームにて、ご相談内容をお聞かせください<br>
+          支援のご提案とお見積もりをお送りいたします。<br><br>
+          ※現在新規の受付は停止しております。<br></p>
+
+        <form class="form" action="#" method="post">
+          <div class="form__row">
+            <label class="form__label" for="name">名前</label>
+            <div class="form__field"><input type="text" id="name" name="name"></div>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="kana">カナ</label>
+            <div class="form__field"><input type="text" id="kana" name="kana"></div>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="email">メールアドレス</label>
+            <div class="form__field"><input type="email" id="email" name="email"></div>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="trigger">HENennを<br>知ったきっかけ</label>
+            <div class="form__field">
+              <select id="trigger" name="trigger">
+                <option value="">選択してください</option>
+                <option value="google">google検索</option>
+                <option value="sns">AI検索</option>
+                <option value="referral">SNS</option>
+                <option value="passing">紹介</option>
+                <option value="other">その他</option>
+              </select>
+            </div>
+          </div>
+          <div class="form__row">
+            <span class="form__label">ご相談内容</span>
+            <div class="form__field form__checks">
+              <label><input type="checkbox" name="motive[]" value="1">創業</label>
+              <label><input type="checkbox" name="motive[]" value="2">経営改善・事業再生・DX</label>
+              <label><input type="checkbox" name="motive[]" value="3">IPO準備</label>
+              <label><input type="checkbox" name="motive[]" value="4">その他</label>
+            </div>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="detail">詳細</label>
+            <div class="form__field"><textarea id="detail" name="detail"></textarea></div>
+          </div>
+          <button type="submit" class="btn btn--submit">送信</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== フッター ===== -->
+  <footer class="footer">
+    <small>copyrights 2026 HENenn All Rights Reserved.</small>
+  </footer>
+  <!-- ここから上にコードを書く -->
+  <!-- この中に記述していく -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
